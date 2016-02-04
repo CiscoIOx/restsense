@@ -3,7 +3,7 @@ descriptor-schema-version: 2.0
 info:
   name: RESTSense 
   description: "Get sensor data and expose them over RESTful APIs"
-  version: "1.5"
+  version: "1.6"
   author-link: "http://www.cisco.com"
   author-name: "Cisco Systems"
  

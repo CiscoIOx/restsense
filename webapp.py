@@ -17,6 +17,10 @@ class WebApp(Bottle):
         self.route("/alarms", callback=self.alarms)
         self.route("/reset", callback=self.reset_alarms)
         self.route("/weather", callback=self.weather)
+        self.route("/hello", callback=self.hello)
+    
+    def hello(self):
+        return {"msg": "hello"}
 
     def index(self):
         return self.sdc.get_snapshot()
